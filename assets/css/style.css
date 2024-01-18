@@ -1,0 +1,133 @@
+/* IMPOSTAZIONI GENERALI */
+header p {
+  margin-top: 1px;
+  margin-bottom: 3px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  padding: 15px;
+  background-image: url("../img/sfondo.png");
+  background-position: center;
+}
+/* HEADER */
+header {
+  font-family: "Poppins", sans-serif;
+  background: rgb(0, 160, 198);
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 3px 3px #444;
+  margin-bottom: 1.5em;
+  padding: 2em 1.5em;
+  max-width: 100%;
+  text-transform: uppercase;
+}
+
+/* MAIN */
+
+main {
+  background: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-bottom: 1.5em;
+  padding: 2em 1.5em;
+  box-shadow: 0 3px 3px #444;
+  margin-top: 70px;
+  max-width: 100%;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.novita {
+  font-family: "Poppins", sans-serif;
+  background: rgb(165, 164, 164);
+  font-weight: bold;
+  margin-bottom: 1.5em;
+  padding: 2em 1.5em;
+  margin-top: 20px;
+  max-width: 100%;
+  header: 100%;
+}
+.articoli1 {
+  font-family: "Poppins", sans-serif;
+  background: rgb(165, 164, 164);
+  font-weight: bold;
+  margin-bottom: 1.5em;
+  padding: 2em 1.5em;
+  margin-top: 70px;
+  max-width: 100%;
+  header: 100%;
+}
+.articoli2 {
+  font-family: "Poppins", sans-serif;
+  background: rgb(165, 164, 164);
+  font-weight: bold;
+  margin-bottom: 1.5em;
+  padding: 2em 1.5em;
+  margin-top: 20px;
+  max-width: 100%;
+  header: 100%;
+}
+.articoli3 {
+  font-family: "Poppins", sans-serif;
+  background: rgb(165, 164, 164);
+  font-weight: bold;
+  margin-bottom: 1.5em;
+  padding: 2em 1.5em;
+  margin-top: 20px;
+  max-width: 100%;
+  header: 100%;
+}
+
+/* TABELLE */
+table {
+  font-size: 15px;
+  width: 100%;
+
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+caption {
+  font-weight: bold;
+  font-style: italic;
+}
+thead tr {
+  background-color: #3f6bca;
+  color: #ffffff;
+}
+th,
+td {
+  padding: 12px 15px;
+  vertical-align: bottom;
+}
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+footer {
+  font-family: "Poppins", sans-serif;
+  background: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+  padding: 2em 1.5em;
+  margin-top: 40px;
+  max-width: 100%;
+}
+h6 {
+  color: rgb(118, 118, 118);
+}
+iframe {
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-inline: auto;
+}
+
+.titolo {
+  margin-top: 20px;
+}
